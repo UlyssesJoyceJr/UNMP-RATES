@@ -1,16 +1,7 @@
-# UNMP-RATES
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul 21 00:20:28 2021
-
-@author: jcjoyce
-"""
 
 
 from csv import reader 
-with open('/Users/jcjoyce/Desktop/WMPython/Module5/M5LineGraph.py', 'r') as FOODSTAMPS:
+with open('---', 'r') as FOODSTAMPS:
     csv_reader = reader(FOODSTAMPS)
     VISA = list(csv_reader)
     THISTHING = (VISA[3])
